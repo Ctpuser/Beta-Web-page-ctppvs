@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!-- metadatos del web site -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="biblioteca en linea con PDF's de todo tipo">
+	<meta name="keywords" content="book, ebook, pdf, word, libro, documento, biblioteca">
+	<title>CTPPVS</title>
+	<!-- icono del web site -->
+	<link rel="icon" href="img/logo-ctp2.png">
+	<!-- Hoja de estilo css personal -->
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+	<!-- Ultima compilacion min.css de Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<!-- ultima compilacion de FontAwesome -->
+	<script src="https://kit.fontawesome.com/ea9b6ffb65.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<!-- barra de información y login -->
+		<!-- barra de información y login -->
+		<div class="container-fluid bg-dark info-bar">
+			<div class="row py-2">
+				<div class=" row col-lg-6 d-none d-md-none d-lg-inline-block">
+					<a href="#"><i class="fas fa-phone"></i> Tel: (+506)2766 7246</a>
+					<a href="#"><i class="fas fa-at"></i>  ctp.puertoviejo@mep.go.cr</a>
+				</div>
+				</div>
+			</div>
+		</div>
+		<!-- Barra de Navegacion -->
+		<nav class="navbar navbar-expand-md navbar-light text-center bg-sky nav-size sticky-top">
+			<!-- Logotipo del websaite -->
+			<a class="navbar-brand logo-text" href="index.html" style="color: #000;">
+				<img class="logo-img" src="img/logo-ctp2.png" alt="logo"> CTPPVS
+			</a>
+			<!-- botón del menú desplegable movíl -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+				<i class="fas fa-caret-down size-menu"></i>
+			</button>
+			<!--  Contenido de la Barra de navegación -->
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item dropdown bg-sky">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Especialidades
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="categorias.html">Informatica Empresarial</a>
+							<a class="dropdown-item" href="categorias.html">Ejecutivo para centro de servicios</a>
+							<a class="dropdown-item" href="categorias.html">Contabilidad</a>
+							<a class="dropdown-item" href="categorias.html">Turismo Ecologico</a>
+							<a class="dropdown-item" href="categorias.html">Alimentos y Bebidas</a>
+							<a class="dropdown-item" href="categorias.html">Salud Ocupacional</a>
+							<a class="dropdown-item" href="categorias.html">Secretariado</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contacto.html">Contáctanos</a>
+					</li>
+	
+				</ul>
+	
+				<!-- cuadro de busqueda -->
+				<form class="form-inline my-2 my-lg-0 justify-content-center">
+					<input class="form-control mr-sm-2" type="search" placeholder="Buscar..." aria-label="Search">
+					<button class="btn btn-outline-dark d-none d-md-block ml-n2 my-2 my-sm-0" type="submit">
+						<i class="fas fa-search"></i>
+					</button>
+					<button class="btn btn-outline-dark d-block d-md-none ml-n2 my-2 my-sm-0" type="submit">
+						Búscar
+					</button>
+				</form>
+			</div>
+		</nav>
+<!-- /barra de navegación -->
+
+<!-- contacto -->
+<div class="container-fluid mx-auto bg-contact py-5">
+	<div class="container py-4">
+		<div class="container text-white text-center py-3">
+			<h1>Contáctanos</h1>
+		</div>
+		<form class="form-group">
+			<div class="input-group mb-3">
+				<div class="input-group-prepend">
+					<span class="input-group-text"><i class="far fa-user-circle"></i></span>
+				</div>
+				<input type="text" class="form-control" placeholder="Nombre">
+			</div>
+			<div class="input-group mb-3">
+				<div class="input-group-prepend">
+					<span class="input-group-text"><i class="fas fa-at"></i></span>
+				</div>
+				<input type="email" class="form-control" placeholder="example@example.com" required>
+			</div>
+			<div class="form-grup mb-3">
+				<label style="color: #fff; font-size: 20px;">En que podemos ayudarte?</label>
+				<select name="opciones" class="custom-select">
+					<option value="contactanos" selected>Elija una opcion...</option>
+					<option value="ayuda">Ayuda</option>
+					<option value="sugerencias">Sugerencias</option>
+					<option value="peticiones">Peticiones</option>
+				</select>
+			</div>
+			<div class="form-grup mb-3">
+				<textarea class="py-3 col-12" id="helpMensaje" rows="5" required></textarea>
+			</div>
+		
+			<div class="container text-center">
+				<input type="submit" class="btn col-6 btn-outline-primary btn-lg btn-dark">
+			</div>
+		</form>
+	</div>
+</div>
+</div>
+<!-- /contacto -->
+
+<!-- footer -->
+	<footer>
+		<div class="container-fluid bg-gunmetal d-none d-md-block text-white py-4">
+			<div class="container">
+				<!-- Información en linea -->
+				<!-- Información en linea -->
+				<div class="row">
+					<div class="container col-7 col-md-5 foot">
+						<h5>Contáctos</h5>
+						<ul class="list-unstyled">
+							<li>
+								<a href="#"><i class="fas fa-phone"></i> (+506)2766 7246</a>
+							</li>
+							<li>
+								<a href="#"><i class="fas fa-at"></i> ctp.puertoviejo@mep.go.cr</a>
+							</li>
+							<li>
+								<a href="#"><i class="fas fa-map-marked-alt"></i> Puerto Viejo de Sarapiqui,1000 metros norte del banco nacional.</a>
+							</li>
+						</ul>
+					</div>
+					<div class="container col-7 col-md-4">
+						<h5>Accesos Rapidos</h5>
+						<ul class="list-unstyled">
+							<li>
+								<a href="categorias.html"><i class="fas fa-bookmark"></i>Especialidades</a>
+							</li>
+							<li>
+								<a href="#"><i class="fas fa-question-circle"></i> Quejas o Sugerencias</a>
+							</li>
+						</ul>
+					</div>
+					<div class="container-fluid text-center col-md-3 d-none d-md-block">
+						<h5>Redes sociales</h5>
+						<div class="list-group-horizontal redes">
+							<li class="list-inline-item">
+								<a href="https://www.facebook.com/CTP-de-Puerto-Viejo-Sarapiqu%C3%AD-Oficial-208030552726369/?ref=page_internal"><i class="fab fa-facebook"></i></a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#"><i class="fab fa-instagram"></i></a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#"><i class="fab fa-whatsapp"></i></a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#"><i class="fab fa-twitter"></i></a>
+							</li>
+						</div>
+					</div>
+				</div>
+			<!-- /información en linea -->
+			</div>
+		</div>
+	<!-- footer Movil  -->
+		<div class="container-fluid text-center d-md-none d-block bg-gunmetal py-2">
+			<div class="list-group-horizontal redes">
+				<li class="list-inline-item mr-4">
+					<a href="#"><i class="fab fa-facebook"></i></a>
+				</li>
+				<li class="list-inline-item mr-4">
+					<a href="#"><i class="fab fa-instagram"></i></a>
+				</li>
+				<li class="list-inline-item mr-4">
+					<a href="https://chat.whatsapp.com/AcgJy5cIUm94PSAMisB90e">
+						<i class="fab fa-whatsapp"></i>
+					</a>
+				</li>
+
+			</div>
+		</div>
+	<!-- /footer movil -->
+		<div class="container-fluid bg-gunmetal py-3">
+			<div class="row">
+				<div class="container text-center text-warning">
+					Todos los derechos reservados  | CTPPVS
+				</div>
+			</div>
+		</div>
+	</footer>
+<!-- /footer -->
+
+</body>
+<!-- Scripts propios -->
+<script src="js/script.js"></script>
+<!-- core js scripts bootstrap -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</html>
